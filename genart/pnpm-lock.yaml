@@ -14,6 +14,12 @@ importers:
       canvas-sketch-util:
         specifier: ^1.10.0
         version: 1.10.0
+      glsl-hsl2rgb:
+        specifier: ^1.1.0
+        version: 1.1.0
+      glsl-noise:
+        specifier: ^0.0.0
+        version: 0.0.0
       glslify:
         specifier: ^7.1.1
         version: 7.1.1
@@ -381,8 +387,14 @@ packages:
     resolution: {integrity: sha512-nFR0zLpU2YCaRxwoCJvL6UvCH2JFyFVIvwTLsIf21AuHlMskA1hhTdk+LlYJtOlYt9v6dvszD2BGRqBL+iQK9Q==}
     deprecated: Glob versions prior to v9 are no longer supported
 
+  glsl-hsl2rgb@1.1.0:
+    resolution: {integrity: sha512-dlxkgfTzjQ86DWngdozxRFqCSNWCoH186DmfZpLqt+JhtqdoeuI+/1TMKMULAw1FjFqfbTqAgSNXupNfjNSWQw==}
+
   glsl-inject-defines@1.0.3:
     resolution: {integrity: sha512-W49jIhuDtF6w+7wCMcClk27a2hq8znvHtlGnrYkSWEr8tHe9eA2dcnohlcAmxLYBSpSSdzOkRdyPTrx9fw49+A==}
+
+  glsl-noise@0.0.0:
+    resolution: {integrity: sha512-b/ZCF6amfAUb7dJM/MxRs7AetQEahYzJ8PtgfrmEdtw6uyGOr+ZSGtgjFm6mfsBkxJ4d2W7kg+Nlqzqvn3Bc0w==}
 
   glsl-resolve@0.0.1:
     resolution: {integrity: sha512-xxFNsfnhZTK9NBhzJjSBGX6IOqYpvBHxxmo+4vapiljyGNCY0Bekzn0firQkQrazK59c1hYxMDxYS8MDlhw4gA==}
@@ -1475,11 +1487,15 @@ snapshots:
       once: 1.4.0
       path-is-absolute: 1.0.1
 
+  glsl-hsl2rgb@1.1.0: {}
+
   glsl-inject-defines@1.0.3:
     dependencies:
       glsl-token-inject-block: 1.1.0
       glsl-token-string: 1.0.1
       glsl-tokenizer: 2.1.5
+
+  glsl-noise@0.0.0: {}
 
   glsl-resolve@0.0.1:
     dependencies:
